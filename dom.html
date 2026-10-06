@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+     <!--change-->
+     <h1 id="head1">Welcome to Apical Soft Solutions</h1>
+     <h1>dbjkebfkeb</h1>
+      <h1>ebfhekhb </h1>
+     <h2 class="head2">Hi! every one</h2>
+     <h2 class="head2">How are you all</h2>
+     <p class="head3">welcome to new journey</p>
+      <button onclick="changetext()">changetext</button>
+      <script>
+        function changetext(){
+            heading=document.getElementById("head1")
+            heading.outerHTML="<p>Bye Apical Soft Solutions!</p>"
+            heading1=document.getElementsByClassName("head2")[0]
+            heading1.outerHTML="<p>DOM Manipulation is completed</p>"
+            heading2=document.getElementsByTagName("h1");
+            heading2[0].textContent="new heading";
+
+
+        }
+      </script>
+    
+    </body>
+
+
+</html>

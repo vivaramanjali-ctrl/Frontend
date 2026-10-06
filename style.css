@@ -1,0 +1,14 @@
+.card{
+    height: 50vh;
+    width: 25vw;
+    border-radius: 30px;
+    background-color: rgb(234, 228, 236);
+    border-style: groove;
+}
+.bca{
+    height: 60vh;
+    width: 25vw;
+    border-radius: 30px;
+    background-color: rgb(234, 228, 236);
+    border-style: groove;
+}

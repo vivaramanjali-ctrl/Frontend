@@ -1,0 +1,79 @@
+/* Page */
+body {
+    background-color: #e8e8e8;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    color: #222;
+    margin-bottom: 20px;
+}
+
+/* Calculator body */
+.Calculator {
+    width: 320px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Calculator content */
+.cal {
+    width: 100%;
+}
+
+/* Display */
+.display {
+    width: 280px;
+    height: 60px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    color: #222;
+    font-size: 32px;
+    text-align: right;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* All buttons */
+button {
+    width: 60px;
+    height: 55px;
+    margin: 4px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #444;
+    color: white;
+}
+
+/* Number buttons */
+.number {
+    background-color: #555;
+}
+
+/* Operator buttons */
+.operator {
+    background-color: #ff9500;
+}
+
+/* Clear button */
+.clear {
+    background-color: #e63946;
+}
+
+/* Hover effect */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Click effect */
+button:active {
+    transform: scale(0.95);
+}
